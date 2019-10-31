@@ -142,10 +142,10 @@ a:active,a:focus,a:hover{
 /* Resume section css starts for various device width*/
 
 section img.img-profile-lg-none{    
-    margin-top: 2rem;
-    margin-bottom: -3em;
-    margin-left: 1em;
-    border: .5rem solid #bd5d38;
+	margin-top: 2rem;
+	margin-bottom: -3em;
+	margin-left: 1em;
+	border: .5rem solid #bd5d38;
 }
 
 section.resume-section{
@@ -180,3 +180,28 @@ section.resume-section .resume-item .resume-date{
 }
 
 /*Name css ends*/
+
+/*dev-icons starts*/
+.dev-icons{
+	font-size:3rem
+}
+.dev-icons .list-inline-item i:hover{
+	color:#bd5d38
+}
+/*.tooltiptext{
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #bd5d38;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	
+	position: absolute;
+	z-index: 1;
+}
+i:hover .tooltiptext {
+  visibility: visible;
+  */
+/*dev-icons end*/
