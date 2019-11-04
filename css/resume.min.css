@@ -206,7 +206,8 @@ p.copyright {
 	width: 100%;
 	font-size: 1rem;
 	text-align: center;
-	color:#868e96
+	color:#868e96;
+	margin-bottom: 0rem;
 }
 
 /*footer css ends*/
