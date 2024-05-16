@@ -17,4 +17,5 @@ jobs:
 
       - name: Deploy to Firebase
         run: |
-          firebase deploy --token ${{ secrets.FIREBASE_TOKEN }} --non-interactive --only hosting
+          firebase deploy --token ${{ secrets.FIREBASE_TOKEN }} --non-interactive --only hosting "/faisalsaysin/resume" --project "get-my-online-resume"
+          
